@@ -1,0 +1,9 @@
+├── web/             # Vue项目
+│   ├── src/
+│   │   ├── modules/  # 按领域拆分
+│   │   └── shared/   # 公共组件库
+├── mobile/          # Flutter项目
+│   ├── lib/
+│   │   ├── features/ # 功能模块
+│   │   └── core/     # 状态管理层 
+└── server/          # BFF层（可选）
