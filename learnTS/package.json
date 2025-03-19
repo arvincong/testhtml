@@ -12,5 +12,10 @@
   "description": "",
   "devDependencies": {
     "typescript": "^5.8.2"
+  },
+  "compilerOptions": {
+    "types": ["@types/node@22"],
+    "target": "ES2023",        
+    "lib": ["ES2023", "DOM"]
   }
 }
